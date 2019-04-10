@@ -2,10 +2,12 @@
 @font-face{
 	font-family:faber;
 	src:url('../font/faber/faber.ttf');
+	font-display: fallback;
 }
 @font-face{
 	font-family:icon;
 	src:url('../font/themify-icons/fonts/themify.ttf');
+	font-display: fallback;
 }
 *{
 	padding: 0;
@@ -91,7 +93,7 @@
 	display: inline;
 }
 .nav-href, .nav-href:visited {
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	text-decoration: none;
 	color: #fff;
 	font-size: 16px;
@@ -111,21 +113,21 @@
 }
 .page-content-heading {
 	padding: 8px 0;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	text-transform: capitalize;
 }
 .info-text {
 	padding: 8px 0;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	font-size: 16px;
 }
 .sub-content-heading {
 	margin: 8px 0;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .sub-break-content-heading{
 	padding: 8px 0;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .sub-break-content-heading:before{
 	content: "\e695";
@@ -140,7 +142,7 @@
 .category-info {
 	border-bottom: 2px solid #d9d9d9;
 	margin-bottom: 16px;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .sub-listed-info{
 	list-style-type: none;
@@ -155,7 +157,7 @@
 }
 .sub-category-info{
 	margin-bottom: 16px;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .sub-category-info:before{
 	content: "\e71b";
@@ -166,7 +168,7 @@
 }
 .sub-inner-category-info{
 	margin: 0 0 16px 16px;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .sub-inner-category-info:before{
 	content: "\e699";
@@ -176,7 +178,7 @@
 	font-weight: bold;
 }
 .category-heading {
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .subcat .category-heading{
 	border-top: 2px solid #d9d9d9;
@@ -184,10 +186,10 @@
 }
 .bold-text {
 	font-weight: bold;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .info-href, .info-href:visited {
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	text-decoration: none;
 	color: #06c;
 }
@@ -197,7 +199,7 @@
 }
 .disclaimer {
 	font-weight: bold;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .disclaimer:before{
 	content: "\e717";
@@ -230,10 +232,10 @@
 }
 .footer-list-items.disclaimer {
 	display: block;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 }
 .footer-href, .footer-href:visited {
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	text-decoration: none;
 	color: #06c;
 }
@@ -249,7 +251,7 @@
 }
 .social-items {
 	display: inline;
-	font-family: faber;
+	font-family: faber,arial,sans-serif;
 	padding-right: 8px;
 }
 
